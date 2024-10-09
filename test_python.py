@@ -23,4 +23,4 @@ def test_div():
     assert calcDiv(3,1) == 3
     assert calcDiv(-6,2) == -3
     assert calcDiv(-12,-3) == 4
-    assert calcDiv(0,0) == 0
+    assert calcDiv(0,0) == "Error: Cannot divide by zero"
