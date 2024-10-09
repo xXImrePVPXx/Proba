@@ -10,17 +10,17 @@ def calcMult(a,b):
 def calcDiv(a,b):
     return a / b
 
-num1 = int(input())
-op = input()
-num2 = int(input())
-a = ""
-if op == '+':
-    a = calcSum(num1,num2)
-elif op == '-':
-    a = calcSub(num1,num2)
-elif op == '*':
-    a = calcMult(num1,num2)
-elif op == '/':
-    a = calcDiv(num1,num2)
+# num1 = int(input())
+# op = input()
+# num2 = int(input())
+# a = ""
+# if op == '+':
+#     a = calcSum(num1,num2)
+# elif op == '-':
+#     a = calcSub(num1,num2)
+# elif op == '*':
+#     a = calcMult(num1,num2)
+# elif op == '/':
+#     a = calcDiv(num1,num2)
 
-print(f"= {a}")
+# print(f"= {a}")
